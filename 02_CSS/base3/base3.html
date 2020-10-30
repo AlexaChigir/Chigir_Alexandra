@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .blocks {width: 15em;
+    background-color: rgb(192, 189, 189);
+    float: left;
+    }
+    .article {position: relative;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 2em;
+    }
+    .basement {width: 100%;
+    height: auto;
+    background-color: rgb(192, 189, 189);
+    clear: both;
+    }
+    .img{position: absolute;
+    right: 0%;
+    bottom: 0%;
+    } 
+    li {list-style-type: circle;}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="blocks">
+        <h2>Блок навигации</h2>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Распологается слева</li>
+            <li>Блок навигации наполните контентом достаточным, 
+                чтобы по высоте он начинал захватывать вторую статью,
+                как показано в данном примере</li>            
+        </ul> 
+    </div>
+
+    <div class="article">
+        <h2>Статья 1</h2>
+        <p>Размер блока:
+            <br>Занимает всю доступную ширину
+            <br>Должен присутствовать цвет фона
+            <br>Во всех "статьях" сделайте отступ снизу от соседей 
+            равным .2em, при помощи свойста margin-bottom
+        </p>
+    </div>
+    
+    <div class="article">
+        <h2>Статья 2</h2>
+        <p>Размер блока:
+            <br>Занимает всю доступную ширину
+            <br>Должен присутствовать цвет фона
+            <br>Во всех "статьях" сделайте отступ снизу от соседей 
+            равным .2em, при помощи свойста margin-bottom 
+            <br>Картинка вставлена при помощи тега, плавание организованно <!--ВСТАВИТЬ КАРТИНКУ-->
+            по правому краю внутри данной статьи для этой картинки.
+        </p> <br>
+        <div class="img">
+            <img src="qwerty.jpg">
+        </div>
+    </div>
+
+    <div class="basement">
+        <p>Нижний блок подвал. Занимает всю доступную ширину. 
+            Высота определяется помещенным внутрь контентом.
+        </p>
+    </div>
+
+</body>
+</html>
