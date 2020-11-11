@@ -50,14 +50,14 @@
             <fieldset>
                 <legend>Авторизуйтесь</legend>
             <label>
-                <input type="login" name="login" required placeholder="Обязательное поле">
+                <input type="text" name="login" id="login" required placeholder="Обязательное поле">
             </label>
             <label for=“login”>Логин </label>
                 <br>
             <label>
-                <INPUT type="password" name="password" required placeholder="Обязательное поле">
+                <INPUT type="password" name="password" id="password" required placeholder="Обязательное поле">
             </label>
-            <label for=“password”>Пароль </label>
+            <label for="password">Пароль </label>
                 <br>
             <label>
                 <input type="checkbox" name="system"> Оставаться в системе
@@ -96,12 +96,12 @@
              <fieldset>
             <legend>Оставьте Ваш отзыв</legend>
             <label>
-                <INPUT TYPE="text" NAME="name" required placeholder="Обязательное поле">
+                <INPUT TYPE="text" NAME="name" id="name" required placeholder="Обязательное поле">
             </label>
-            <label for=“login”>Имя </label>
+            <label for=“name”>Имя </label>
             <br>
             <label>
-                <INPUT TYPE="email" NAME="email" required placeholder="Обязательное поле" 
+                <INPUT TYPE="email" NAME="email" id="email" required placeholder="Обязательное поле" 
                 pattern="[A-Za-z][0-9],@">  <!--КАК СДЕЛАТЬ ???должен содержать буквы или цифры до символа @, 
                     после него, затем точку и домен первого уровня.-->
             </label>
